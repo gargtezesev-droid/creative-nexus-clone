@@ -15,17 +15,20 @@ export default function ContactSection() {
           <input
             type="text"
             placeholder="TEZESEV GARG"
-            className="w-full p-3 rounded-md bg-[#121212] border border-gray-700"
+            className="w-full p-3 rounded-md bg-[#121212] border border-gray-700 text-sm md:text-base"
+
           />
           <input
             type="email"
             placeholder="GARGTEZESEV@GMAIL.COM"
-            className="w-full p-3 rounded-md bg-[#121212] border border-gray-700"
+            className="w-full p-3 rounded-md bg-[#121212] border border-gray-700 text-sm md:text-base"
+
           />
           <textarea
             placeholder="SAP ABAP CONSULTANT"
             rows={4}
-            className="w-full p-3 rounded-md bg-[#121212] border border-gray-700"
+            className="w-full p-3 rounded-md bg-[#121212] border border-gray-700 text-sm md:text-base"
+
           />
           <button className="w-full bg-white text-black py-3 rounded-md font-semibold">
             Send Message

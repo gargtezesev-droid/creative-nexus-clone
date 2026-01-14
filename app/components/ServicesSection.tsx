@@ -20,14 +20,20 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="bg-black text-white py-20">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-24 bg-black text-white px-4">
+
+      <div className="w-full bg-zinc-900 rounded-2xl p-8">
+
+
+
         
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center lg:text-left">
+
           Our Services
         </h2>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
           {services.map((service, index) => (
             <div
               key={index}
@@ -40,10 +46,12 @@ export default function ServicesSection() {
                 height={80}
                 className="mb-4"
               />
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="text-xl font-semibold mb-2 text-center md:text-left">
+
                 {service.title}
               </h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-400 text-center md:text-left">
+
                 {service.desc}
               </p>
             </div>

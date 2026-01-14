@@ -16,7 +16,8 @@ export default function ClientsSection() {
           Trusted by leading brands
         </p>
 
-        <div className="flex flex-wrap justify-center items-center gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
+
           {logos.map((logo, index) => (
             <Image
               key={index}
@@ -24,7 +25,7 @@ export default function ClientsSection() {
               alt="Client logo"
               width={120}
               height={60}
-              className="opacity-70 hover:opacity-100 transition"
+              className="mx-auto max-h-12 object-contain opacity-70 hover:opacity-100"
             />
           ))}
         </div>

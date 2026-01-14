@@ -7,16 +7,18 @@ export default function MainSection() {
         
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-center md:text-left">
+
             We Build Digital <br /> Experiences That Convert
           </h1>
 
-          <p className="text-gray-400 mb-8">
+          <p className="text-gray-400 mb-8 text-center md:text-left">
+
             Creative Nexus helps brands grow through digital marketing,
             branding and performance-driven design.
           </p>
 
-          <button className="bg-white text-black px-6 py-3 rounded-md font-semibold hover:bg-gray-200">
+          <button className="bg-white text-black px-6 py-3 rounded-md block mx-auto md:mx-0">
             Get Started
           </button>
         </div>
